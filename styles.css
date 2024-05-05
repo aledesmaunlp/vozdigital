@@ -1,0 +1,54 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0; /* Blanco ceniza */
+    color: #010101; /* Negro */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal; /* Puedes ajustar el peso según prefieras */
+}
+
+/* Estilo especial para H1 con la "D" en lila */
+h1 {
+    color: #bf95e1; /* Lila */
+}
+
+/* Estilos de enlaces */
+a {
+    color: #5478ff; /* Azul */
+    text-decoration: none;
+    transition: color 0.3s; /* Transición suave al cambiar de color */
+}
+
+a:hover {
+    color: #45455a; /* Violeta quebrado más oscuro */
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #746f8d; /* Violeta quebrado más claro */
+    padding: 20px;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #64627b; /* Violeta quebrado medio */
+    padding: 20px;
+}
+
+/* Estilos de las cajas "botón" linkeadas */
+.boton {
+    background-color: #57545c; /* Gris */
+    color: #ffffff; /* Blanco */
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;
+    transition: background-color 0.3s; /* Transición suave al cambiar de color */
+}
+
+.boton:hover {
+    background-color: #4340ab; /* Violeta más oscuro */
+}
