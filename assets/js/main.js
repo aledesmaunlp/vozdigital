@@ -144,22 +144,9 @@
   const form = document.getElementById('contactForm');
   if (form) {
     form.addEventListener('submit', (e) => {
-      e.preventDefault();
       const btn = form.querySelector('button[type="submit"]');
-      const original = btn.textContent;
       btn.textContent = 'Enviando...';
       btn.disabled = true;
-      // Aquí se conectaría con Formspree o similar
-      setTimeout(() => {
-        btn.textContent = '¡Mensaje enviado!';
-        btn.style.background = '#4c4b65';
-        form.reset();
-        setTimeout(() => {
-          btn.textContent = original;
-          btn.disabled = false;
-          btn.style.background = '';
-        }, 3000);
-      }, 1200);
     });
   }
 
