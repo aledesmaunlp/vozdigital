@@ -1,5 +1,5 @@
 # Voz Digital — Landing Page
-
+#vozdigitalit.com
 > Landing estática para GitHub Pages. Single-page, scroll-driven, vanilla stack.
 
 ## Estructura
