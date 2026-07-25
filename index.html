@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voz Digital — Operaciones de Datos e Inteligencia de Negocios</title>
+  <meta name="description" content="Transformamos el caos operativo de tu empresa en datos ordenados, procesos automatizados y decisiones basadas en evidencia.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="logo" aria-label="Voz Digital">
+        <span class="logo-voz">Voz</span><span class="logo-d">D</span><span class="logo-igital">igital</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#proceso">Proceso</a></li>
+        <li><a href="#casos">Resultados</a></li>
+        <li><a href="#contacto" class="nav-cta">Contactar</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-label">Ingeniería de Operaciones Digitales</p>
+      <h1 class="hero-title">
+        Dejá de operar<br>
+        <span class="hero-accent">a ciegas.</span>
+      </h1>
+      <p class="hero-sub">
+        Ordenamos tus sistemas de gestión, limpiamos tus datos y automatizamos lo repetitivo.<br>
+        Vos tomás decisiones. Nosotros preparamos la evidencia.
+      </p>
+      <div class="hero-actions">
+        <a href="#contacto" class="btn btn-primary">Solicitar diagnóstico</a>
+        <a href="#servicios" class="btn btn-ghost">Ver qué hacemos</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num" data-target="12">0</span>
+          <span class="stat-suffix">hs</span>
+          <span class="stat-label">ahorro semanal promedio</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-target="99">0</span>
+          <span class="stat-suffix">%</span>
+          <span class="stat-label">precios sincronizados sin errores</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-target="48">0</span>
+          <span class="stat-suffix">hs</span>
+          <span class="stat-label">para tu primer informe de negocio</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="section section-dark" id="servicios">
+    <div class="container">
+      <header class="section-header">
+        <span class="section-tag">Servicios</span>
+        <h2 class="section-title">¿Qué resolvemos?</h2>
+        <p class="section-lead">Cuatro disciplinas técnicas que cubren el ciclo completo: desde los datos crudos hasta la decisión ejecutiva.</p>
+      </header>
+
+      <div class="services-grid">
+        <article class="service-card" data-service="dataops">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></svg>
+          </div>
+          <h3>Data Operations & MDM</h3>
+          <p>Limpieza, normalización y gobernanza de bases de datos. Eliminamos duplicados, estandarizamos catálogos y creamos taxonomías que escalan.</p>
+          <ul class="service-list">
+            <li>Auditoría de calidad de datos</li>
+            <li>Normalización de productos y clientes</li>
+            <li>Master Data Management (MDM)</li>
+          </ul>
+          <button class="service-more" data-open="dataops">Ver detalle</button>
+        </article>
+
+        <article class="service-card" data-service="bi">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 16v-5"/><path d="M11 16V8"/><path d="M15 16v-3"/><path d="M19 16v-7"/></svg>
+          </div>
+          <h3>Business Intelligence</h3>
+          <p>Extraemos datos de tus sistemas, los modelamos y te entregamos dashboards e informes que responden preguntas de negocio en segundos.</p>
+          <ul class="service-list">
+            <li>Dashboards ejecutivos (Looker / Power BI)</li>
+            <li>Informes P&L, rotación y márgenes</li>
+            <li>Alertas de negocio automatizadas</li>
+          </ul>
+          <button class="service-more" data-open="bi">Ver detalle</button>
+        </article>
+
+        <article class="service-card" data-service="erp">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
+          </div>
+          <h3>Optimización de ERP/CRM</h3>
+          <p>Configuramos y optimizamos tu software de gestión para que se adapte a tu operativa, no al revés. Carga masiva, sincronización y ajustes finos.</p>
+          <ul class="service-list">
+            <li>Parametrización de módulos</li>
+            <li>Carga masiva y actualización de precios</li>
+            <li>Integración tienda–ERP</li>
+          </ul>
+          <button class="service-more" data-open="erp">Ver detalle</button>
+        </article>
+
+        <article class="service-card" data-service="bpa">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <h3>Automatización de Procesos</h3>
+          <p>Automatizamos flujos repetitivos: actualización de listas de precios, sincronización de stock, alertas operativas. Horas recuperadas, errores eliminados.</p>
+          <ul class="service-list">
+            <li>Scripts de actualización masiva</li>
+            <li>Sincronización stock multi-canal</li>
+            <li>Backups y alertas programadas</li>
+          </ul>
+          <button class="service-more" data-open="bpa">Ver detalle</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="section" id="proceso">
+    <div class="container">
+      <header class="section-header">
+        <span class="section-tag">Metodología</span>
+        <h2 class="section-title">Cómo trabajamos</h2>
+        <p class="section-lead">Un proceso de 5 pasos, transparente y medible, diseñado para minimizar riesgo y maximizar ROI.</p>
+      </header>
+
+      <div class="process-steps">
+        <div class="step" data-step="1">
+          <div class="step-num">01</div>
+          <div class="step-body">
+            <h3>Diagnóstico</h3>
+            <p>Auditamos tu base de datos y operativa en 48 hs. Entregamos un reporte con hallazgos cuantificados y un plan de acción priorizado.</p>
+          </div>
+        </div>
+        <div class="step" data-step="2">
+          <div class="step-num">02</div>
+          <div class="step-body">
+            <h3>Propuesta</h3>
+            <p>Definimos alcance, entregables, timeline y precio fijo. Sin sorpresas. Pagás la mitad al inicio, la mitad a la entrega.</p>
+          </div>
+        </div>
+        <div class="step" data-step="3">
+          <div class="step-num">03</div>
+          <div class="step-body">
+            <h3>Implementación</h3>
+            <p>Ejecutamos con acceso controlado a tus sistemas. Semanalmente te mostramos avances. Todo queda documentado.</p>
+          </div>
+        </div>
+        <div class="step" data-step="4">
+          <div class="step-num">04</div>
+          <div class="step-body">
+            <h3>Entrega</h3>
+            <p>Entregamos datos limpios, dashboards funcionales, scripts automatizados y documentación técnica para tu equipo.</p>
+          </div>
+        </div>
+        <div class="step" data-step="5">
+          <div class="step-num">05</div>
+          <div class="step-body">
+            <h3>Soporte</h3>
+            <p>30 días de soporte post-entrega incluidos. Luego, retainer mensual opcional para mantenimiento y evolución.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTADOS / CASOS -->
+  <section class="section section-dark" id="casos">
+    <div class="container">
+      <header class="section-header">
+        <span class="section-tag">Impacto</span>
+        <h2 class="section-title">Lo que medimos</h2>
+        <p class="section-lead">Nuestro trabajo se traduce en métricas concretas. No vendemos promesas: vendemos eficiencia auditable.</p>
+      </header>
+
+      <div class="impact-grid">
+        <div class="impact-card">
+          <div class="impact-value">–70<span>%</span></div>
+          <div class="impact-label">Tiempo de carga de productos</div>
+          <div class="impact-desc">Taxonomía estandarizada + templates validados.</div>
+        </div>
+        <div class="impact-card">
+          <div class="impact-value">0<span>%</span></div>
+          <div class="impact-label">Errores en actualización de precios</div>
+          <div class="impact-desc">Scripts automatizados con rollback incluido.</div>
+        </div>
+        <div class="impact-card">
+          <div class="impact-value">&lt;3<span>seg</span></div>
+          <div class="impact-label">Tiempo de respuesta de dashboards</div>
+          <div class="impact-desc">Modelado dimensional + índices optimizados.</div>
+        </div>
+        <div class="impact-card">
+          <div class="impact-value">+12<span>hs</span></div>
+          <div class="impact-label">Recuperadas por semana</div>
+          <div class="impact-desc">Automatización de tareas operativas repetitivas.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STACK / TECNOLOGÍA -->
+  <section class="section" id="stack">
+    <div class="container">
+      <header class="section-header">
+        <span class="section-tag">Tecnología</span>
+        <h2 class="section-title">Stack que usamos</h2>
+        <p class="section-lead">Herramientas estándar de la industria, elegidas por robustez y costo-efectividad. Sin dependencias de vendor.</p>
+      </header>
+
+      <div class="stack-categories">
+        <div class="stack-group">
+          <h4>Fuentes de datos</h4>
+          <div class="stack-chips">
+            <span class="chip">Tango</span><span class="chip">SAP B1</span><span class="chip">Odoo</span><span class="chip">Salesforce</span><span class="chip">Shopify</span><span class="chip">MercadoLibre</span>
+          </div>
+        </div>
+        <div class="stack-group">
+          <h4>ETL & Automatización</h4>
+          <div class="stack-chips">
+            <span class="chip">Python</span><span class="chip">pandas</span><span class="chip">dbt</span><span class="chip">n8n</span><span class="chip">Airflow</span>
+          </div>
+        </div>
+        <div class="stack-group">
+          <h4>Almacenamiento</h4>
+          <div class="stack-chips">
+            <span class="chip">PostgreSQL</span><span class="chip">BigQuery</span><span class="chip">Google Sheets</span><span class="chip">S3</span>
+          </div>
+        </div>
+        <div class="stack-group">
+          <h4>Visualización</h4>
+          <div class="stack-chips">
+            <span class="chip">Looker Studio</span><span class="chip">Power BI</span><span class="chip">Metabase</span><span class="chip">Tableau</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section section-contact" id="contacto">
+    <div class="container">
+      <div class="contact-layout">
+        <div class="contact-info">
+          <span class="section-tag">Contacto</span>
+          <h2 class="section-title">Empecemos con un diagnóstico.</h2>
+          <p class="section-lead">En 48 horas auditamos tus datos y te entregamos un plan de acción priorizado. Sin compromiso de contratación.</p>
+          <div class="contact-links">
+            <a href="mailto:vozdigital.it@gmail.com" class="contact-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              vozdigital.it@gmail.com
+            </a>
+            <a href="https://instagram.com/vozdigital.it" target="_blank" rel="noopener" class="contact-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              @vozdigital.it
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-row">
+            <label>
+              <span>Nombre</span>
+              <input type="text" name="nombre" required placeholder="Tu nombre">
+            </label>
+            <label>
+              <span>Empresa</span>
+              <input type="text" name="empresa" placeholder="Nombre de la empresa">
+            </label>
+          </div>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required placeholder="tu@empresa.com">
+          </label>
+          <label>
+            <span>¿Qué necesitás resolver?</span>
+            <select name="servicio">
+              <option value="">Seleccioná una opción</option>
+              <option value="dataops">Limpieza y orden de datos</option>
+              <option value="bi">Informes y dashboards</option>
+              <option value="erp">Optimización de sistema de gestión</option>
+              <option value="bpa">Automatización de procesos</option>
+              <option value="otro">No estoy seguro / Otro</option>
+            </select>
+          </label>
+          <label>
+            <span>Mensaje</span>
+            <textarea name="mensaje" rows="4" placeholder="Contanos brevemente tu situación..."></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary btn-block">Solicitar diagnóstico</button>
+          <p class="form-note">Respondemos en menos de 24 horas hábiles.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-voz">Voz</span><span class="logo-d">D</span><span class="logo-igital">igital</span>
+        <p>Arquitectura de Sistemas de Negocio y Operaciones de Datos.</p>
+      </div>
+      <div class="footer-meta">
+        <p>© 2026 Voz Digital. Buenos Aires, Argentina.</p>
+        <p><a href="mailto:vozdigital.it@gmail.com">vozdigital.it@gmail.com</a> · <a href="https://instagram.com/vozdigital.it" target="_blank" rel="noopener">@vozdigital.it</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL SERVICIOS -->
+  <div class="modal" id="serviceModal">
+    <div class="modal-backdrop"></div>
+    <div class="modal-panel">
+      <button class="modal-close" aria-label="Cerrar">×</button>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
